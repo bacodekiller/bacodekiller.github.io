@@ -9,9 +9,9 @@ url: "bacodekiller.github.io" # the base hostname & protocol for your site
 paginate: 5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: "https://www.facebook.com/bacodekiller"
-twitter: twitter
-github: github
+facebook: "bacodekiller"
+twitter: "HiepDQ97"
+github: "bacodekiller"
 
 #Additional Pages
 about: about
