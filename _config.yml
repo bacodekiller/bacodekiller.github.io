@@ -1,26 +1,24 @@
 # Site settings
-title: Bacodekiller Blog
+title: Welcome to my blog
 description: when you have silence it's hard to keep stuff out.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+# baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+url: "bacodekiller.github.io" # the base hostname & protocol for your site
+paginate: 5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
+facebook: "https://www.facebook.com/bacodekiller"
 twitter: twitter
-github:  github
+github: github
 
 #Additional Pages
 about: about
 contact: contact
 privacy-policy: privacy-policy
 
-
 permalink: /:title
-
 
 # Google Analytics
 analytics_id: ""
@@ -34,7 +32,6 @@ kramdown:
 plugins:
   - jekyll-paginate
 
-
 # Settings for rake task
 safe: False
 lsi: False
@@ -43,8 +40,8 @@ repo: hanuman #github repository
 branch: master #branch
 relative_source: ../hanuman/ #source directory
 destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url: https://samanyougarg.com/
+source_url: https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
   - README.md
